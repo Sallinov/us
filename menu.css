@@ -1,0 +1,102 @@
+#menu-checkbox {
+  /* чекбокс скрыт */
+  display: none;
+}
+a{
+  text-decoration: none;
+}
+nav {
+    background: #F44336;
+    padding: 23px 0px 0px 0px;
+    margin-bottom: 10px;
+}
+.footer{
+  margin-top: 10px;
+  padding: 11px 0;
+  background: #ff3121;
+  display: flex;
+  justify-content: space-between;
+}
+.copirate{
+  margin-left: 7%;
+  color: white;
+}
+.main-menu {
+  /* пункты меню скрыты */
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+.main-menu li {
+  /* пункты меню расположены вертикально */
+  /* каждый имеет ширину 100% */
+  font-size: 1em;
+  display: block;
+  width: 100%;
+}
+.main-menu a:hover{
+  color: #000;
+}
+.main-menu a {
+  /* немного стилизуем ссылки */
+  display: block;
+  border-top: 2px solid #fff;
+  color: #fff;
+  padding: 10px 10px 10px 7%;
+}
+.toggle-button {
+  font-size: 20px;
+  padding: 10px 0 33px 7%;
+  display: block;
+  cursor: pointer;
+  color: #fff;
+}
+.toggle-button:after {
+  content: attr(data-open);
+  display: block;
+}
+#menu-checkbox:checked + nav[role="navigation"] .main-menu {
+  display: block;
+}
+#menu-checkbox:checked + nav[role="navigation"] .toggle-button:after {
+  content: attr(data-close);
+}
+.logo{
+    font-size: 1px;
+    opacity: 0;
+}
+@media screen and (min-width: 640px) {
+  .logo{
+    font-size: 25px;
+    font-weight: 600;
+    float: right;
+    margin-top: -25px;
+    margin-right: 7%;
+    opacity: 100
+  }
+  nav{
+    background: #F44336;
+    padding: 21px 35px 32px 7%;
+    margin-bottom: 10px;
+  }
+  .main-menu a {
+    text-transform: uppercase;
+      border: none;
+    }
+    .toggle-button {
+      /* label скрыт */
+      display: none;
+    }
+    .main-menu {
+      display: block;
+      height: 30px;
+    }
+    .main-menu li {
+      /* теги <li> расположены в ряд */
+      width: auto;
+      display: inline-block;
+    }
+    .main-menu a {
+      color: #fff;
+    }
+  }
