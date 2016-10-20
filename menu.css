@@ -11,6 +11,10 @@ nav {
     margin-bottom: 10px;
 }
 .footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   margin-top: 10px;
   padding: 11px 0;
   background: #ff3121;
