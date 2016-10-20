@@ -191,6 +191,7 @@ body,
       width: 151px;
     }
     .content{
+      height: auto;
       padding-top: 15.85vh;
     }
 }
@@ -204,6 +205,7 @@ body,
       width: calc(60% - 137px);
     }
     .content{
+      height: auto;
       padding-top: 14vh;
     }
 }
@@ -225,6 +227,7 @@ body,
       width: calc(60% - 137px);
     }
     .content{
+      height: auto;
       padding-top: 15vh;
     }
 }
@@ -254,6 +257,7 @@ body,
       width: calc(60% - 137px);
     }
     .content {
+        height: auto;
         padding-top: 15vh;
       }
 }
@@ -263,11 +267,13 @@ body,
       width: 160px;
     }
     .content{
+      height: auto;
       padding: 10vh;
     }
 }
 @media screen and (min-width: 1301px) and (max-width: 1370px){
     .content{
+      height: auto;
       padding-top: 6.8vh;
     }
 }
@@ -276,6 +282,7 @@ body,
       width: 145px;
     }
     .content{
+      height: auto;
       padding-top: 11vh;
     }
 }
