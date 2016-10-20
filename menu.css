@@ -70,6 +70,17 @@ nav {
     opacity: 0;
 }
 @media screen and (min-width: 640px) {
+  .footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 10px;
+    padding: 11px 0;
+    background: #ff3121;
+    display: flex;
+    justify-content: space-between;
+  }
   .logo{
     font-size: 25px;
     font-weight: 600;
