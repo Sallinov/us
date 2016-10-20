@@ -77,9 +77,6 @@ body,
   cursor: auto;
   color: #666
 }
-.content{
-    min-height: calc(100vh - 149px);
-}
 .center{
   text-align: center;
 }
