@@ -21,9 +21,11 @@
 }
 .dow{
   width: 140px;
+  cursor: pointer;
+}
+.doww{
   color: #fff;
   margin-right: 7%;
-  cursor: pointer;
 }
 .dow:hover{
   color: #000;
