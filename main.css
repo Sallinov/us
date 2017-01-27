@@ -22,10 +22,10 @@
 .dow{
   width: 150px;
   cursor: pointer;
-  margin-right: 10px;
+  margin-right: 10px;  
+  color: #fff;
 }
 .doww{
-  color: #fff;
   margin-right: 7%;
 }
 .dow:hover{
