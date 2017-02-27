@@ -59,9 +59,6 @@ nav {
     opacity: 0;
 }
 @media screen and (min-width: 640px) {
-  .copirate{
-    margin-top: 12px;
-  }
   .logo{
     font-size: 25px;
     font-weight: 600;
